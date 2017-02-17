@@ -25,7 +25,7 @@ $(function() {
       //cat 2
       console.log(cats[2]["name"]);
       var cat2_photo = cats[2]["photo"];
-      $('<img>').attr('src', cat1_photo).appendTo('#cat3');
+      $('<img>').attr('src', cat2_photo).appendTo('#cat3');
 
     }).fail(function(jqXHR, textStatus, errorThrown){
       console.log('Ajax Request Failed');
